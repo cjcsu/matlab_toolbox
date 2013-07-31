@@ -25,7 +25,7 @@ mem_block = 3000;                   % maxmum number of testing features loaded e
 
 % -------------------------------------------------------------------------
 % set path
-addpath('Liblinear/matlab');        % we use Liblinear package, you need 
+addpath('../liblinear-1.93/matlab');        % we use Liblinear package, you need 
                                     % download and compile the matlab codes
 
 img_dir = 'image/Caltech101';       % directory for the image database                             
